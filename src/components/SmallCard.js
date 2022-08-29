@@ -4,6 +4,7 @@ function SmallCard(props) {
         <li>
             <p>{props.name}</p>
             <p>{props.basePrice}</p>
+            <img src={props.iconLink} alt=""></img>
         </li>
     );
 }

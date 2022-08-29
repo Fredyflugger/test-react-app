@@ -10,6 +10,7 @@ function SmallCardList(props) {
                         key={item.id}
                         name={item.name}
                         basePrice={item.basePrice}
+                        iconLink={item.iconLink}
                     />
                 );
             })}

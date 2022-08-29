@@ -18,6 +18,7 @@ function MainPage() {
                 query: `{
             items {
                 id
+                iconLink
                 name
                 basePrice
                 avg24hPrice
